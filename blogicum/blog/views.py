@@ -58,7 +58,6 @@ def post_detail(request, pk):
         if post['id'] == pk:
             context['post'] = post
             break
-    
     return render(request, template, context)
 
 
